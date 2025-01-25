@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #4f46e5, #9333ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.min-h-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.bg-white {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+
+input[type="file"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  padding: 10px 16px;
+  background-color: #60a5fa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #3b82f6;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+button {
+  width: 100%;
+  background: linear-gradient(to right, #4f46e5, #9333ea);
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #4338ca, #7e22ce);
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background: #a78bfa;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.mt-6 {
+  margin-top: 24px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.bg-green-100 {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-box {
+  background-color: #d1fae5;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+  background-color: #d1d5db;
+}
