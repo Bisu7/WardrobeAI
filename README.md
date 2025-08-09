@@ -1,6 +1,6 @@
 Project Name: WardrobeAI – Clothing Image Classifier
 
-Description:
+
 
 Developed a web-based application that classifies clothing types from uploaded images using a K-Nearest Neighbors (KNN) Machine Learning Model.
 
